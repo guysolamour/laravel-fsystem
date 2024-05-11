@@ -1,0 +1,50 @@
+{
+    "name": "guysolamour/laravel-fsystem",
+    "description": "Manipulate file with laravel",
+    "license": "MIT",
+    "keywords": [
+      "laravel","filesystem","fsystem"
+    ],
+    "type": "library",
+    "authors": [
+      {
+        "name": "Guy-roland ASSALE",
+        "email": "rolandassale@gmail.com",
+        "homepage": "https://rolandassale.mooo.com",
+        "role": "developer"
+      }
+    ],
+    "require": {
+      "php": "^8.0.2",
+      "illuminate/support": "^10.0|^11.0"
+    },
+    "require-dev": {
+      "orchestra/testbench": "^6.0|^8.0",
+      "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Guysolamour\\Fsystem\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Guysolamour\\Fsystem\\Tests\\": "tests"
+      }
+    },
+    "scripts": {
+      "phpunit": "phpunit"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Guysolamour\\Fsystem\\ServiceProvider"
+        ]
+      }
+    },
+    "config": {
+      "preferred-install": "dist",
+      "sort-packages": true,
+      "optimize-autoloader": true
+    }
+  }
