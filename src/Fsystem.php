@@ -1,13 +1,12 @@
 <?php
 
-namespace Guysolamour\Fsytem;
-
+namespace Guysolamour\Fsystem;
 
 use Illuminate\Support\Arr;
 use Illuminate\Filesystem\Filesystem;
 
 
-class Fsytem extends Filesystem
+class Fsystem extends Filesystem
 {
 
     /** @var array  */
